@@ -13,6 +13,8 @@ map ;b 0
     "如果不再需要插件, 在将对应插件的安装命令删除, 并在vim中执行以下命令:"PlugClean"
 call plug#begin()
 Plug 'scrooloose/nerdtree'
+" auto complete
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 " end 使用VimPlug安装插件 
 
